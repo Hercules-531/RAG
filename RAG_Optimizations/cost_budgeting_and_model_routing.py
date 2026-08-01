@@ -145,7 +145,6 @@ class BudgetedLLM:
 
 
 def demo_token_budgeting():
-    """Demonstrate token budgeting."""
 
     llm = BudgetedLLM(max_tokens=100)
 
